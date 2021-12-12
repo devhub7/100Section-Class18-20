@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.7142; /* {24px/14}*/
+  font-weight: 400;
+  color: #626262;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.logo {
+  padding: 70px 0;
+}
+.mainmenu {
+  padding: 70px 0;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mainmenu ul li {
+  display: inline-block;
+}
+
+.mainmenu ul li a {
+  display: block;
+  color: #666;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  padding-left: 80px;
+}
+h2 a,
+h2 a:hover {
+  color: #626262;
+  text-decoration: none;
+  font-size: 30px;
+}
+.blogmeta a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+.blog-feature-content img {
+  width: 100%;
+}
+.single-blog-item {
+  padding: 100px 0;
+}
+p.blogmeta {
+  padding-top: 75px;
+}
+.single-blog-item h2 {
+  margin-bottom: 25px;
+}
+a.blog-readmore-btn {
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin: 30px 0;
+  display: inline-block;
+}
+.newsletter-area {
+  background: #f0f0f0;
+  padding: 75px 0;
+}
+.newsletter-area h2 {
+  color: #333;
+  margin-bottom: 50px;
+}
+input[type="email"],
+button {
+  border: none;
+}
+form {
+  border-bottom: 1px solid;
+  max-width: 70%;
+}
+button {
+  padding-left: 41%;
+}
