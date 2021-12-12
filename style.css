@@ -10,6 +10,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+input:hover {
+  outline: none;
+}
+button:hover {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
 a:focus,
 a:hover {
   text-decoration: none;
@@ -79,19 +91,66 @@ a.blog-readmore-btn {
 .newsletter-area {
   background: #f0f0f0;
   padding: 75px 0;
+  margin-bottom: 120px;
 }
 .newsletter-area h2 {
   color: #333;
   margin-bottom: 50px;
 }
-input[type="email"],
-button {
+.newsletter-form {
+  max-width: 380px;
+  margin: 0 auto;
+}
+.newsletter-form {
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.newsletter-form input[type="email"] {
   border: none;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 10px;
 }
-form {
-  border-bottom: 1px solid;
-  max-width: 70%;
+.newsletter-form button {
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
 }
-button {
-  padding-left: 41%;
+.loadmore.text-center {
+  margin: 75px 0;
+}
+a.loadmore-btn {
+  border: 1px solid #626262;
+  color: #626262;
+  text-decoration: none;
+  padding: 17px 47px;
+  display: inline-block;
+  font-size: 20px;
+}
+.footer-area {
+  background: #f0f0f0;
+  font-size: 14px;
+  padding: 38px 0;
+}
+.footer-area a {
+  color: #000;
+}
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu ul li {
+  display: inline;
+}
+
+.footer-menu ul li a {
+  display: inline-block;
+  padding-right: 20px;
+}
+.col-lg-6.text-right a {
+  padding-left: 10px;
 }
